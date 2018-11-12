@@ -1,0 +1,8 @@
+language: generic
+dist: trusty
+sudo: required
+
+install:
+- bash ./scripts/install.sh
+script:
+- bash ./scripts/test.sh
