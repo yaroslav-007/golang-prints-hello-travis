@@ -3,6 +3,6 @@ dist: trusty
 sudo: required
 
 install:
-- bash ./scripts/install_travis.sh
+- bash ./scripts/install.sh
 script:
 - bash ./scripts/test.sh
