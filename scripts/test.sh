@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-out=$(go run /vagrant/hello.go)
+out=$(go run ./hello.go)
 
 # we should check out == hello
 if [ "${out}" == "hello" ];then
